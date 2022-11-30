@@ -17,6 +17,8 @@ terraform {
 
 provider "snowflake" {
     account  = "POONAMMANE"
+    username = "PoonamMane"
+    region   = "east-us-2.azure"
 }
 
 resource "snowflake_database" "demo_db" {
